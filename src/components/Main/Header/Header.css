@@ -1,0 +1,32 @@
+.App-header {
+    background: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header-nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.header-subtitle {
+    transform: translate(-120%, 100%);
+    font-weight: bold;
+}
+
+.header-icon {
+    font-size: 3rem;
+    transform: translate(-50%, -15%);
+}

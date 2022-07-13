@@ -1,0 +1,39 @@
+.day-offer-container {
+    background-image: url('../../../images/shaurmaBlack.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.day-offer-heading {
+    font-size: clamp(1rem, 4vw, 4rem);
+}
+
+.day-offer-description {
+     margin-bottom: 1rem;
+     font-size: clamp(1rem, 3vw, 2rem);
+ } 
+
+ .day-offer-btn {
+    font-size: 1.4rem;
+    padding: 0.6rem 3rem;
+    border: none;
+    background: #ffc500;
+    color: #000;
+    transition: 0.2s ease-out;  
+ }
+
+ .day-offer-btn:hover {
+    color: #fff;
+    background: #e31837;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+ }
