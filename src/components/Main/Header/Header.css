@@ -30,3 +30,11 @@
     font-size: 3rem;
     transform: translate(-50%, -15%);
 }
+
+@media screen and (max-width: 720px) {
+    .header-title {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+}
